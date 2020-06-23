@@ -1,5 +1,55 @@
-h2 {
-    background-color: #f4bdff
+h1 {
+    background-color: #346053;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    padding: 20px;
+}
+
+h4 {
+    color: white;
+    background-color: #54997f;
+    text-align: center;
+    font-family: serif;
+    padding: 7px;
+}
+
+hr.dashed {
+    border-top: 3px dashed #d8654b;
+}
+
+#table01 {
+    width: 100%;
+    background-color: #a64229;
+    border-spacing: 10px;
+}
+
+a:link {
+    color: white;
+    background-color: #d8654b;
+    text-decoration: none;
+    padding: 7px;
+}
+
+a:visited {
+    color: white;
+    background-color: #d8654b;
+    text-decoration: none;
+    padding: 7px;
+}
+
+a:hover {
+    color: #d8654b;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 7px;
+}
+
+a:active {
+    color: #efd8d1;
+    background-color: #d8654b;
+    text-decoration: none;
+    padding: 7px;
 }
 
 .text-warning {
