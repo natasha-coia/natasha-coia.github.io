@@ -1,16 +1,67 @@
+.header {
+    position: static;
+    width: 100%;
+    background-color: #efd8d1;
+}
+
+.topnav {
+    position: static;
+    width: 100%;
+}
+
+.column {
+    float: right;
+    width: 600px;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer {
+    position: static;
+    width: 100%;
+    background-color:#346053;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
 h1 {
     background-color: #346053;
     color: white;
     text-align: center;
-    font-family: serif;
+    font-family: georgia;
     padding: 20px;
+}
+
+h2 {
+    color: #346053;
+    text-align: center;
+    font-family: georgia;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p {
+    font-family: georgia;
+    padding: 5px;
 }
 
 h4 {
     color: white;
     background-color: #54997f;
     text-align: center;
-    font-family: serif;
+    font-family: georgia;
     padding: 7px;
 }
 
@@ -18,40 +69,52 @@ hr.dashed {
     border-top: 3px dashed #d8654b;
 }
 
-#table01 {
-    width: 100%;
-    background-color: #a64229;
-    border-spacing: 10px;
+* {
+    box-sizing: border-box;
 }
 
-a:link {
-    color: white;
-    background-color: #d8654b;
-    text-decoration: none;
-    padding: 7px;
+.section1 {
+    width: 50%;
+    float: left;
 }
 
-a:visited {
-    color: white;
-    background-color: #d8654b;
-    text-decoration: none;
-    padding: 7px;
-}
-
-a:hover {
-    color: #d8654b;
-    background-color: transparent;
-    text-decoration: none;
-    padding: 7px;
-}
-
-a:active {
-    color: #efd8d1;
-    background-color: #d8654b;
-    text-decoration: none;
-    padding: 7px;
+.section2 {
+    width: 50%;
+    float: right;
 }
 
 .text-warning {
     background-color: #f9daff
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow:hidden;
+    background-color: #a64229;
+    padding: 0px;
+    position: static;
+    width: 100%
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #efd8d1;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #d8654b;
+    color: #efd8d1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
