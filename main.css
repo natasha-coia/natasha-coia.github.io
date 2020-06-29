@@ -21,7 +21,7 @@
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .column {
         width: 100%;
     }
@@ -49,12 +49,11 @@ h2 {
     text-align: center;
     font-family: georgia;
     font-weight: bold;
-    padding: 10px;
 }
 
 p {
     font-family: georgia;
-    padding: 5px;
+    margin: 15px;
 }
 
 h4 {
@@ -116,5 +115,5 @@ li a:hover {
 
 a {
     color: white;
-    text-decoration: none;
+    float: center;
 }
